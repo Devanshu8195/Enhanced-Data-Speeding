@@ -1,0 +1,188 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.2
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Apr 29, 2016 at 07:26 AM
+-- Server version: 5.7.9
+-- PHP Version: 5.6.16
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `tempraturedb`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `temp_tb1`
+--
+
+DROP TABLE IF EXISTS `temp_tb1`;
+CREATE TABLE IF NOT EXISTS `temp_tb1` (
+  `temp_id` int(11) NOT NULL AUTO_INCREMENT,
+  `tmp_time` mediumtext,
+  `t1` int(11) DEFAULT NULL,
+  `t2` int(11) DEFAULT NULL,
+  `t3` int(11) DEFAULT NULL,
+  `t4` int(11) DEFAULT NULL,
+  `t5` int(11) DEFAULT NULL,
+  `t6` int(11) DEFAULT NULL,
+  `t7` int(11) DEFAULT NULL,
+  `t8` int(11) DEFAULT NULL,
+  `t9` int(11) DEFAULT NULL,
+  `t10` int(11) DEFAULT NULL,
+  `t11` int(11) DEFAULT NULL,
+  `t12` int(11) DEFAULT NULL,
+  `t13` int(11) DEFAULT NULL,
+  `t14` int(11) DEFAULT NULL,
+  `t15` int(11) DEFAULT NULL,
+  `t16` int(11) DEFAULT NULL,
+  `t17` int(11) DEFAULT NULL,
+  `t18` int(11) DEFAULT NULL,
+  `t19` int(11) DEFAULT NULL,
+  `t20` int(11) DEFAULT NULL,
+  `t21` int(11) DEFAULT NULL,
+  `t22` int(11) DEFAULT NULL,
+  `t23` int(11) DEFAULT NULL,
+  `t24` int(11) DEFAULT NULL,
+  `t25` int(11) DEFAULT NULL,
+  `t26` int(11) DEFAULT NULL,
+  `t27` int(11) DEFAULT NULL,
+  `t28` int(11) DEFAULT NULL,
+  `t29` int(11) DEFAULT NULL,
+  `t30` int(11) DEFAULT NULL,
+  `t31` int(11) DEFAULT NULL,
+  `t32` int(11) DEFAULT NULL,
+  `t33` int(11) DEFAULT NULL,
+  `t34` int(11) DEFAULT NULL,
+  `t35` int(11) DEFAULT NULL,
+  `t36` int(11) DEFAULT NULL,
+  `t37` int(11) DEFAULT NULL,
+  `t38` int(11) DEFAULT NULL,
+  `t39` int(11) DEFAULT NULL,
+  `t40` int(11) DEFAULT NULL,
+  `t41` int(11) DEFAULT NULL,
+  `t42` int(11) DEFAULT NULL,
+  `t43` int(11) DEFAULT NULL,
+  `t44` int(11) DEFAULT NULL,
+  `t45` int(11) DEFAULT NULL,
+  `t46` int(11) DEFAULT NULL,
+  `t47` int(11) DEFAULT NULL,
+  `t48` int(11) DEFAULT NULL,
+  `t49` int(11) DEFAULT NULL,
+  `t50` int(11) DEFAULT NULL,
+  `t51` int(11) DEFAULT NULL,
+  `t52` int(11) DEFAULT NULL,
+  `t53` int(11) DEFAULT NULL,
+  `t54` int(11) DEFAULT NULL,
+  `t55` int(11) DEFAULT NULL,
+  `t56` int(11) DEFAULT NULL,
+  `t57` int(11) DEFAULT NULL,
+  `t58` int(11) DEFAULT NULL,
+  `t59` int(11) DEFAULT NULL,
+  `t60` int(11) DEFAULT NULL,
+  `t61` int(11) DEFAULT NULL,
+  `t62` int(11) DEFAULT NULL,
+  `t63` int(11) DEFAULT NULL,
+  `t64` int(11) DEFAULT NULL,
+  `t65` int(11) DEFAULT NULL,
+  `t66` int(11) DEFAULT NULL,
+  `t67` int(11) DEFAULT NULL,
+  `t68` int(11) DEFAULT NULL,
+  `t69` int(11) DEFAULT NULL,
+  `t70` int(11) DEFAULT NULL,
+  `t71` int(11) DEFAULT NULL,
+  `t72` int(11) DEFAULT NULL,
+  `t73` int(11) DEFAULT NULL,
+  `t74` int(11) DEFAULT NULL,
+  `t75` int(11) DEFAULT NULL,
+  `t76` int(11) DEFAULT NULL,
+  `t77` int(11) DEFAULT NULL,
+  `t78` int(11) DEFAULT NULL,
+  `t79` int(11) DEFAULT NULL,
+  `t80` int(11) DEFAULT NULL,
+  `t81` int(11) DEFAULT NULL,
+  `t82` int(11) DEFAULT NULL,
+  `t83` int(11) DEFAULT NULL,
+  `t84` int(11) DEFAULT NULL,
+  `t85` int(11) DEFAULT NULL,
+  `t86` int(11) DEFAULT NULL,
+  `t87` int(11) DEFAULT NULL,
+  `t88` int(11) DEFAULT NULL,
+  `t89` int(11) DEFAULT NULL,
+  `t90` int(11) DEFAULT NULL,
+  `t91` int(11) DEFAULT NULL,
+  `t92` int(11) DEFAULT NULL,
+  `t93` int(11) DEFAULT NULL,
+  `t94` int(11) DEFAULT NULL,
+  `t95` int(11) DEFAULT NULL,
+  `t96` int(11) DEFAULT NULL,
+  `t97` int(11) DEFAULT NULL,
+  `t98` int(11) DEFAULT NULL,
+  `t99` int(11) DEFAULT NULL,
+  `t100` int(11) DEFAULT NULL,
+  `t101` int(11) DEFAULT NULL,
+  `t102` int(11) DEFAULT NULL,
+  `t103` int(11) DEFAULT NULL,
+  `t104` int(11) DEFAULT NULL,
+  `t105` int(11) DEFAULT NULL,
+  `t106` int(11) DEFAULT NULL,
+  `t107` int(11) DEFAULT NULL,
+  `t108` int(11) DEFAULT NULL,
+  `t109` int(11) DEFAULT NULL,
+  `t110` int(11) DEFAULT NULL,
+  `t111` int(11) DEFAULT NULL,
+  `t112` int(11) DEFAULT NULL,
+  `t113` int(11) DEFAULT NULL,
+  `t114` int(11) DEFAULT NULL,
+  `t115` int(11) DEFAULT NULL,
+  `t116` int(11) DEFAULT NULL,
+  `t117` int(11) DEFAULT NULL,
+  `t118` int(11) DEFAULT NULL,
+  `t119` int(11) DEFAULT NULL,
+  `t120` int(11) DEFAULT NULL,
+  `t121` int(11) DEFAULT NULL,
+  `t122` int(11) DEFAULT NULL,
+  `t123` int(11) DEFAULT NULL,
+  `t124` int(11) DEFAULT NULL,
+  `t125` int(11) DEFAULT NULL,
+  `t126` int(11) DEFAULT NULL,
+  `t127` int(11) DEFAULT NULL,
+  `t128` int(11) DEFAULT NULL,
+  `t129` int(11) DEFAULT NULL,
+  `t130` int(11) DEFAULT NULL,
+  `t131` int(11) DEFAULT NULL,
+  `t132` int(11) DEFAULT NULL,
+  `t133` int(11) DEFAULT NULL,
+  `t134` int(11) DEFAULT NULL,
+  `t135` int(11) DEFAULT NULL,
+  `t136` int(11) DEFAULT NULL,
+  `t137` int(11) DEFAULT NULL,
+  `t138` int(11) DEFAULT NULL,
+  `t139` int(11) DEFAULT NULL,
+  `t140` int(11) DEFAULT NULL,
+  `t141` int(11) DEFAULT NULL,
+  `t142` int(11) DEFAULT NULL,
+  `t143` int(11) DEFAULT NULL,
+  `t144` int(11) DEFAULT NULL,
+  `t145` int(11) DEFAULT NULL,
+  `t146` int(11) DEFAULT NULL,
+  `t147` int(11) DEFAULT NULL,
+  `t148` int(11) DEFAULT NULL,
+  `t149` int(11) DEFAULT NULL,
+  `t150` int(11) DEFAULT NULL,
+  PRIMARY KEY (`temp_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
