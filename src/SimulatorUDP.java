@@ -15,7 +15,7 @@ import java.net.Socket;
 
 /**
  *
- * @author meghalshah
+ * @author devanshumehta
  */
 public class SimulatorUDP {
     String rPCIP="localhost";
